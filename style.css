@@ -23,23 +23,43 @@ display:block;
 margin-right:5px;
 }
 
-.col-1 {width:8.33%;}
-.col-2 {width:16.66%;}
-.col-3 {width:24.99%;}
+.col-1 {width:8.33%;
+border: 1px solid black;
+		padding: 20px;}
+.col-2 {width:16.66%;
+border: 1px solid black;
+		padding: 20px;}
+.col-3 {width:24.99%;
+border: 1px solid black;
+		padding: 20px;}
 .col-4 {width:33.32%;
 		border: 1px solid black;
 		padding: 20px;}
-.col-5 {width:41.65%;}
+.col-5 {width:41.65%;
+border: 1px solid black;
+		padding: 20px;}
 .col-6 {width:49.98%;
 		border: 1px solid black;
 		padding: 20px;
 	}
-.col-7 {width:58.31%;}
-.col-8 {width:66.64%;}
-.col-9 {width:74.97%;}
-.col-10{width:83.3%;}
-.col-11{width:91.63;}
-.col-12{width:100%;}
+.col-7 {width:58.31%;
+border: 1px solid black;
+		padding: 20px;}
+.col-8 {width:66.64%;
+border: 1px solid black;
+		padding: 20px;}
+.col-9 {width:74.97%;
+border: 1px solid black;
+		padding: 20px;}
+.col-10{width:83.3%;
+border: 1px solid black;
+		padding: 20px;}
+.col-11{width:91.63;
+border: 1px solid black;
+		padding: 20px;}
+.col-12{width:100%;
+border: 1px solid black;
+		padding: 20px;}
 
 .row {
 
@@ -66,4 +86,10 @@ h1 {
 .map {
 	width: 100%;
 	text-align: center;
+}
+
+.col-sm-3{
+	width:50%;
+	border: 1px solid black;
+	padding: 20px;}
 }
